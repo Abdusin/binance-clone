@@ -1,0 +1,29 @@
+name: binance_clone
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.3.8
+  clippy_flutter: ^2.0.0-nullsafety.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: BinancePlex
+      fonts:
+        - asset: fonts/BinancePlex-Regular.otf
+        - asset: fonts/BinancePlex-SemiBold.otf
+          weight: 600
